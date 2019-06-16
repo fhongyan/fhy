@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=67%">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>SMTOWN</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      .nav-pills{
+          padding-top: 20px;
+      }
+      .container2{
+          margin-left: 5px;
+          background-color: #000000;
+      }
+      .container1{
+          float: right;
+          color: #ffffff;
+          border-color: #ffffff;
+          border-width: 10px;
+      }
+      .container3{
+          width: 1080px;
+          height: 520px;
+          margin-left: 400px;
+          margin-bottom: 50px;
+          margin-top: 100px;
+          background-color: #ffffff;
+      }
+      .container4{
+          width: 520px;
+          height: 260px;
+          color: #000000;
+          float: left;
+      }
+      .container5{
+          width: 520px;
+          height: 260px;
+          color: #000000;
+          float:right;
+          font-size: 20px;
+      }
+
+      .bkc{background-color: #000000;
+           background-image: url(https://smcdn.smtown.com/image/pc/newmv/bg_line.png);
+      }
+      .ys1{font-size: 20px;
+           color: #ffffff;
+           
+      }
+      .ys2{font-size: 18px;
+           color: #ffffff
+      }
+      .ys3{font-size: 80px;
+           color: #ffffff;
+           line-height: 350px;
+           margin-left: 190px;
+      }
+      .ys4{font-size: 60px;
+           color: #5776cc
+           }
+      .ys5{font-size: 60px;
+           color: #ffffff;
+           margin-top: 30px;
+           margin-left: 300px; 
+      }     
+      .img{
+        margin: 200px; 
+      }
+      .bkimg{
+          height: 390px;
+          background-repeat:no-repeat;
+          background-size:fixed;
+          background-image: url(https://smcdn.smtown.com/file/fix/star_5aabdc4f8ef97.jpg);
+      }
+      .wencolor{
+          color: #ffffff;
+      }
+      .jumbotron{
+          background:url(https://smcdn.smtown.com/file/newsfeed/201906/star_5cf9f528f361e.jpg);
+          background-size: 1000px;
+          height:610px;
+      }
+      .box1{
+        width: 1110px;
+        height: 1080px;
+        margin:0 auto;
+      }
+      .box2{
+        width: 255px;
+        height: 336.27px;
+        float: left;
+        margin: 0px 8px;
+      }
+      .zzz{
+        display: block;
+        margin: 10px 0 5px 0;
+        line-height: 24px;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        text-overflow: '';
+        white-space: nowrap;
+        overflow: hidden;
+      }
+      .name{
+        display: block;
+        line-height: 22px;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+      }
+      .date{
+        display: block;
+        line-height: 22px;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+      }
+      .footer {
+      position: relative;
+      padding: 40px 0 70px 0;
+      background: #fff;
+      margin-left: 50px;
+      float: left;
+      }
+      .ddd{
+        background: #fff;
+        height: 100px;
+      }
+      .dbz{
+        color: #000000;
+        font-size: 20px;
+        text-align: center;
+
+      }
+      .zt{
+        color: #000000;
+        font-size: 10px;
+        text-align: center;
+      }
+      .ym{
+        margin-left: 400px;
+
+
+      }
+    </style>
+  </head>
+  <body class="bkc">
+      <div class="alert alert-black alert-dismissible" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true" class="wencolor">×</span></button>
+          <div class="container1">
+          <strong class="ys1">现在申请SM Audition!!</strong>
+          <img src="https://smcdn.smtown.com/file/popup/201807/star_5b39c25541a13.png" >
+          </div>
+      </div>
+
+
+
+        <div class="bs-example ">
+          <ul class="nav nav-pills" role="tablist">
+            <li role="presentation" class="active ys1"><a href="#"><b>SMTOWN</b></a></li>
+            <li role="presentation" class="dropdown">
+              <a id="drop4" href="#" class="dropdown-toggle ys2" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <b>Actors</b>
+                <span class="caret"></span>
+              </a>
+              <ul id="menu1" class="dropdown-menu" aria-labelledby="drop4">
+                <li><a href="#">BOA</a></li>
+                <li><a href="#">Kang Ta</a></li>
+                <li><a href="#">Song Jae Lim</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Yoon So Hee</a></li>
+              </ul>
+            </li>
+            <li role="presentation" class="dropdown">
+              <a id="drop5" href="#" class="dropdown-toggle ys2" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <b>Musicians</b>
+                <span class="caret"></span>
+              </a>
+              <ul id="menu2" class="dropdown-menu" aria-labelledby="drop5">
+                <li><a href="#">EXO</a></li>
+                <li><a href="#">Super Junior</a></li>
+                <li><a href="#">F(X)</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">NCT127</a></li>
+              </ul>
+            </li>
+            <li role="presentation" class="dropdown">
+              <a id="drop6" href="#" class="dropdown-toggle ys2" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <b>Entertainers</b>
+                <span class="caret"></span>
+              </a>
+              <ul id="menu3" class="dropdown-menu" aria-labelledby="drop6">
+                <li><a href="#">SE HUN</a></li>
+                <li><a href="#">Park Chanyeol</a></li>
+                <li><a href="#">BAEK HYUN</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">SUHO</a></li>
+              </ul>
+            </li>
+          </ul> <!-- /pills -->
+        </div>
+
+        <hr>
+        <div class="bkimg">
+          <h1><b class="ys3">EXO</b></h1>
+    </div>
+    <hr>
+   
+    <div class="container3">
+      <div class="container4">
+         <img src="https://smcdn.smtown.com/file/banner/201906/star_5cfe1a16586a5.jpg" alt="">
+      </div>
+      <div class="container5">
+        <h3><b>
+          SM Issue
+        </b>
+        </h3>
+        <br>
+        <h1><b>
+            ‘톱클래스 퍼포머’ 유노윤호, 신곡 ‘Follow’ 뮤직비디오 화제!
+          </b>
+        </h1>
+         <br>
+
+        <p><b>동방신기 유노윤호(SM엔터테인먼트 소속)의 첫 솔로 앨범 타이틀 곡 ‘Follow’(팔로우) 뮤직비디오가 공개되어 화제다.12일 오후 8시 30분 유노윤호 공식 홈페이지 및 유튜브, 네이버TV SMTOWN 채널 등을 통해 공개된 ‘Follow’ 뮤직비디오는 중독성 있는 음악과 유노윤호의 매력적인 퍼포먼스가 어우러져 글로벌 음악 팬들의 시선을 사로잡았다.</b></p>
+    </div>
+   </div>
+
+        <marquee behavior="alternate" direction="right"><img src="https://smcdn.smtown.com/file/popup/201807/star_5b39c25541a13.png" alt=""></marquee>
+
+
+
+    <div class="row">
+        <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="https://smcdn.smtown.com/file/banner/201903/star_5c9c91f019d4d.jpg" alt="...">
+          <div class="caption">
+            <h3><b>MINHO</b></h3>
+            <h4><b>Minho first new album I'M HOME!</b></h4>
+            <p><a href="#" class="btn btn-primary" role="button">Learn more</a> <a href="#" class="btn btn-default" role="button">Listen to music</a></p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="https://smcdn.smtown.com/file/banner/201903/star_5c97478f5e0c7.jpg" alt="...">
+          <div class="caption">
+            <h3><b>TAEYEON</b></h3>
+            <h4><b>Strong return!</b></h4>
+            <p><a href="#" class="btn btn-primary" role="button">Learn more</a> <a href="#" class="btn btn-default" role="button">Listen to music</a></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="https://smcdn.smtown.com/file/banner/201902/star_5c653a15d8196.jpg" alt="...">
+          <div class="caption">
+            <h3><b>KIM KIBUM</b></h3>
+            <h4><b>The melancholy voice sings you and my love.</b></h4>
+            <p><a href="#" class="btn btn-primary" role="button">Learn more</a> <a href="#" class="btn btn-default" role="button">Listen to music</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <marquee behavior="alternate" direction="right"><img src="https://smcdn.smtown.com/file/album/201811/star_5bdbfd43a5f1a.jpg" alt="" width="150px" height="150px"></marquee>
+
+     <div class="container">
+        <div class="jumbotron">
+            <p><h1></h1></p>
+            <p></p>
+            <p><a class="btn btn-Danger btn-lg ys4" href="#" role="button"><h1><B>
+            
+                  <div class="dropdown">
+                      <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        WE ARE SUPERHUMAN
+                        <span class="caret"></span>
+                      </a>
+                    
+                      <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li href="#">Highway to Heaven</li>
+                        <li>Superhuman</li>
+                        <li>FOOL</li>
+                        <li>Paper Plane</li>
+                      </ul>
+                    </div>
+                   </B></h1></a></p>
+        </div>
+        </div>
+        <p class="ys5">Album</p>
+         <div class="box1">
+          <div class="box2">
+            <img src="https://smcdn.smtown.com/file/album/201906/star_5d00b99376c22.jpg" alt="" width="255px" height="255px">
+            <span class="zzz">U-KNOW The 1st Mini Album ‘True Colors’</span>
+            <span class="name">유노윤호</span>
+            <span class="date">2019.06.12</span>
+          </div>
+
+          <div class="box2">
+            <img src="https://smcdn.smtown.com/file/album/201906/star_5cf8dae038d53.jpg" alt="" width="255px" height="255px">
+            <span class="zzz">Don’t Need Your Love - SM STATION</span>
+            <span class="name">NCT DREAM,HRVY</span>
+            <span class="date">2019.06.06</span>
+          </div>
+
+          <div class="box2">
+            <img src="https://smcdn.smtown.com/file/album/201906/star_5cf5e0fa7bce6.jpg" alt="" width="255px" height="255px">
+            <span class="zzz">BoA Single ‘Feedback’</span>
+            <span class="name">보아</span>
+            <span class="date">2019.06.04</span>
+          </div>
+
+          <div class="box2">
+            <img src="https://smcdn.smtown.com/file/album/201905/star_5cef97e6696b3.jpg" alt="" width="255px" height="255px">
+            <span class="zzz">YOONA Special Album ‘A Walk to Remember’</span>
+            <span class="name">윤아</span>
+            <span class="date">2019.05.30</span>
+          </div>
+
+          <div class="box2">
+              <img src="https://smcdn.smtown.com/file/album/201904/star_5cc17935f3b4b.jpg" alt="" width="255px" height="255px">
+              <span class="zzz">봄 여름 가을 겨울 (SSFW) - SM STATION</span>
+              <span class="name">찬열</span>
+              <span class="date">2019.04.25</span>
+            </div>
+  
+            <div class="box2">
+              <img src="https://smcdn.smtown.com/file/old/album/images/000/011/370/11370.jpg" alt="" width="255px" height="255px">
+              <span class="zzz">당신이 잠든 사이에 OST Part.2</span>
+              <span class="name">헨리</span>
+              <span class="date">2017.10.04</span>
+            </div>
+  
+            <div class="box2">
+              <img src="https://smcdn.smtown.com/file/album/201812/star_5c11c2f37aae9.jpg" alt="" width="255px" height="255px">
+              <span class="zzz">EXO The 5th Album Repackage  ‘LOVE SHOT’</span>
+              <span class="name">EXO</span>
+              <span class="date">2018.12.13</span>
+            </div>
+  
+            <div class="box2">
+              <img src="https://smcdn.smtown.com/file/album/201811/star_5be125d89eea8.jpg" alt="" width="255px" height="255px">
+              <span class="zzz">KEY Digital Single ‘Forever Yours (Feat. 소유)’ </span>
+              <span class="name">키</span>
+              <span class="date">2018.11.06</span>
+            </div>
+
+              <div class="box2">
+                <img src="https://smcdn.smtown.com/file/album/201809/star_5b9b835205291.jpg" alt="" width="255px" height="255px">
+                <span class="zzz">We Young </span>
+                <span class="name">세훈,찬열</span>
+                <span class="date">2018.09.14</span>
+              </div>
+    
+              <div class="box2">
+                <img src="https://smcdn.smtown.com/file/fix/star_5aa2583b0fa59.jpg" alt="" width="255px" height="255px">
+                <span class="zzz">LISTEN 020 실례해도 될까요</span>
+                <span class="name">수호,장재인</span>
+                <span class="date">2018.03.09</span>
+              </div>
+
+              <div class="box2">
+                  <img src="https://smcdn.smtown.com/file/album/201801/star_5a7044ca00d08.jpg" alt="" width="255px" height="255px">
+                  <span class="zzz">라디오로맨스 OST Part.1 </span>
+                  <span class="name">도영,태일</span>
+                  <span class="date">2018.01.30</span>
+              </div>
+
+                <div class="box2">
+                    <img src="https://smcdn.smtown.com/file/old/album/images/000/011/277/11277.jpg" alt="" width="255px" height="255px">
+                    <span class="zzz">SHINee The 5th Album ‘1 of 1’ </span>
+                    <span class="name">샤이니</span>
+                    <span class="date">2016.10.05</span>
+                </div>
+
+              <div class="ym">
+                <nav aria-label="Page navigation">
+                  <ul class="pagination">
+                    <li>
+                      <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li>
+                      <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+
+
+         </div>
+            
+           <div class="ddd">
+            <a class="dbz"><h1>你已经浏览完了付红艳的网站了</h1></a>
+            <a href="#"><h3 class="zt">回到顶部重新浏览</h3></a>
+           </div>
+           
+    </div>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
